@@ -9,3 +9,6 @@ def divide(x, y):
 
 def multiply(x, y):
     return x * y
+
+def percentage(x, y):
+    return x * 100 / y
