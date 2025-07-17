@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="calc.js" defer></script>
+</head>
+<body>
+    <h1>Calc</h1>
+    <form id="calculator">
+        <label for="num1">Num 1</label>
+        <input type="text" id="num1" name="num1"><br>
+        <label for="num1">Num 2</label>
+        <input type="text" id="num2" name="num2"><br>
+        <input type="radio" id="add" name="operator" value="Add">
+        <label for="operator">Add</label><br>
+        <input type="radio" id="minus" name="operator" value="Minus">
+        <label for="operator">Minus</label><br>
+        <input type="radio" id="multiply" name="operator" value="Multiply">
+        <label for="operator">Multiply</label><br>
+        <input type="radio" id="divide" name="operator" value="Divide">
+        <label for="operator">Divide</label><br>
+        <button id="calc" onclick="handleSubmit(event)">Calculate</button>
+    </form>
+    <p id="res">Result:</p>
+</body>
+</html>
